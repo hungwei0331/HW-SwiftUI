@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    var numberOfPips: Int = 1
+    
     var body: some View {
-        Image(systemName: "die.face.1")
+        Image(systemName: "die.face.\(numberOfPips)")
     }
 }
 
