@@ -8,10 +8,41 @@
 import SwiftUI
 
 struct ContentView: View {
-    var numberOfPips: Int = 1
+    @State private var numberOfDice: Int = 1
     
     var body: some View {
-        Image(systemName: "die.face.\(numberOfPips)")
+        
+        VStack {
+            Text("Dice Roller")
+                .font(.largeTitle.lowercaseSmallCaps())
+            
+            HStack {
+                ForEach(1...numberOfDice, id: \.description) { _ in
+                    DiceView()
+                }
+            }
+            
+            HStack {
+                Button("Remove Dice") {
+                    withAnimation {
+                        numberOfDice -= 1
+                    }
+                }
+                .disabled(numberOfDice == 1)
+                
+                Button("Add Dice") {
+                    withAnimation {
+                        numberOfDice += 1
+                    }
+                }
+                .disabled(numberOfDice == 3)
+            }
+            .padding()
+        }
+        .padding()
+        
+
+        
     }
 }
 
