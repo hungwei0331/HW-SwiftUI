@@ -3,91 +3,85 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 110;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		E9CFA31D30068EF000ED3F16 /* PBXContainerItemProxy */ = {
+		E99641053062E1AB0074B8EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9CFA30730068EED00ED3F16 /* Project object */;
+			containerPortal = E99640EF3062E1AA0074B8EA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9CFA30E30068EED00ED3F16;
-			remoteInfo = 100daysSwiftUI;
+			remoteGlobalIDString = E99640F63062E1AA0074B8EA;
+			remoteInfo = WeSplit;
 		};
-		E9CFA32730068EF000ED3F16 /* PBXContainerItemProxy */ = {
+		E996410F3062E1AB0074B8EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9CFA30730068EED00ED3F16 /* Project object */;
+			containerPortal = E99640EF3062E1AA0074B8EA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9CFA30E30068EED00ED3F16;
-			remoteInfo = 100daysSwiftUI;
+			remoteGlobalIDString = E99640F63062E1AA0074B8EA;
+			remoteInfo = WeSplit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E9CFA30F30068EED00ED3F16 /* 100daysSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100daysSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9CFA31C30068EF000ED3F16 /* 100daysSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 100daysSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9CFA32630068EF000ED3F16 /* 100daysSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 100daysSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99640F73062E1AA0074B8EA /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99641043062E1AB0074B8EA /* WeSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E996410E3062E1AB0074B8EA /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E9CFA31130068EED00ED3F16 /* 100daysSwiftUI */ = {
+		E99640F93062E1AA0074B8EA /* WeSplit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 100daysSwiftUI;
+			path = WeSplit;
 			sourceTree = "<group>";
 		};
-		E9CFA31F30068EF000ED3F16 /* 100daysSwiftUITests */ = {
+		E99641073062E1AB0074B8EA /* WeSplitTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 100daysSwiftUITests;
+			path = WeSplitTests;
 			sourceTree = "<group>";
 		};
-		E9CFA32930068EF000ED3F16 /* 100daysSwiftUIUITests */ = {
+		E99641113062E1AB0074B8EA /* WeSplitUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 100daysSwiftUIUITests;
+			path = WeSplitUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E9CFA30C30068EED00ED3F16 /* Frameworks */ = {
+		E99640F43062E1AA0074B8EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9CFA31930068EF000ED3F16 /* Frameworks */ = {
+		E99641013062E1AB0074B8EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9CFA32330068EF000ED3F16 /* Frameworks */ = {
+		E996410B3062E1AB0074B8EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E9CFA30630068EED00ED3F16 = {
+		E99640EE3062E1AA0074B8EA = {
 			isa = PBXGroup;
 			children = (
-				E9CFA31130068EED00ED3F16 /* 100daysSwiftUI */,
-				E9CFA31F30068EF000ED3F16 /* 100daysSwiftUITests */,
-				E9CFA32930068EF000ED3F16 /* 100daysSwiftUIUITests */,
-				E9CFA31030068EED00ED3F16 /* Products */,
+				E99640F93062E1AA0074B8EA /* WeSplit */,
+				E99641073062E1AB0074B8EA /* WeSplitTests */,
+				E99641113062E1AB0074B8EA /* WeSplitUITests */,
+				E99640F83062E1AA0074B8EA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E9CFA31030068EED00ED3F16 /* Products */ = {
+		E99640F83062E1AA0074B8EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9CFA30F30068EED00ED3F16 /* 100daysSwiftUI.app */,
-				E9CFA31C30068EF000ED3F16 /* 100daysSwiftUITests.xctest */,
-				E9CFA32630068EF000ED3F16 /* 100daysSwiftUIUITests.xctest */,
+				E99640F73062E1AA0074B8EA /* WeSplit.app */,
+				E99641043062E1AB0074B8EA /* WeSplitTests.xctest */,
+				E996410E3062E1AB0074B8EA /* WeSplitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,181 +89,161 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9CFA30E30068EED00ED3F16 /* 100daysSwiftUI */ = {
+		E99640F63062E1AA0074B8EA /* WeSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9CFA33030068EF000ED3F16 /* Build configuration list for PBXNativeTarget "100daysSwiftUI" */;
+			buildConfigurationList = E99641163062E1AB0074B8EA /* Build configuration list for PBXNativeTarget "WeSplit" */;
 			buildPhases = (
-				E9CFA30B30068EED00ED3F16 /* Sources */,
-				E9CFA30C30068EED00ED3F16 /* Frameworks */,
-				E9CFA30D30068EED00ED3F16 /* Resources */,
+				E99640F33062E1AA0074B8EA /* Sources */,
+				E99640F43062E1AA0074B8EA /* Frameworks */,
+				E99640F53062E1AA0074B8EA /* Resources */,
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
-				E9CFA31130068EED00ED3F16 /* 100daysSwiftUI */,
+				E99640F93062E1AA0074B8EA /* WeSplit */,
 			);
-			name = 100daysSwiftUI;
-			packageProductDependencies = (
-			);
-			productName = 100daysSwiftUI;
-			productReference = E9CFA30F30068EED00ED3F16 /* 100daysSwiftUI.app */;
+			name = WeSplit;
+			productName = WeSplit;
+			productReference = E99640F73062E1AA0074B8EA /* WeSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E9CFA31B30068EF000ED3F16 /* 100daysSwiftUITests */ = {
+		E99641033062E1AB0074B8EA /* WeSplitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9CFA33330068EF000ED3F16 /* Build configuration list for PBXNativeTarget "100daysSwiftUITests" */;
+			buildConfigurationList = E99641193062E1AB0074B8EA /* Build configuration list for PBXNativeTarget "WeSplitTests" */;
 			buildPhases = (
-				E9CFA31830068EF000ED3F16 /* Sources */,
-				E9CFA31930068EF000ED3F16 /* Frameworks */,
-				E9CFA31A30068EF000ED3F16 /* Resources */,
+				E99641003062E1AB0074B8EA /* Sources */,
+				E99641013062E1AB0074B8EA /* Frameworks */,
+				E99641023062E1AB0074B8EA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E9CFA31E30068EF000ED3F16 /* PBXTargetDependency */,
+				E99641063062E1AB0074B8EA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E9CFA31F30068EF000ED3F16 /* 100daysSwiftUITests */,
+				E99641073062E1AB0074B8EA /* WeSplitTests */,
 			);
-			name = 100daysSwiftUITests;
-			packageProductDependencies = (
-			);
-			productName = 100daysSwiftUITests;
-			productReference = E9CFA31C30068EF000ED3F16 /* 100daysSwiftUITests.xctest */;
+			name = WeSplitTests;
+			productName = WeSplitTests;
+			productReference = E99641043062E1AB0074B8EA /* WeSplitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E9CFA32530068EF000ED3F16 /* 100daysSwiftUIUITests */ = {
+		E996410D3062E1AB0074B8EA /* WeSplitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9CFA33630068EF000ED3F16 /* Build configuration list for PBXNativeTarget "100daysSwiftUIUITests" */;
+			buildConfigurationList = E996411C3062E1AB0074B8EA /* Build configuration list for PBXNativeTarget "WeSplitUITests" */;
 			buildPhases = (
-				E9CFA32230068EF000ED3F16 /* Sources */,
-				E9CFA32330068EF000ED3F16 /* Frameworks */,
-				E9CFA32430068EF000ED3F16 /* Resources */,
+				E996410A3062E1AB0074B8EA /* Sources */,
+				E996410B3062E1AB0074B8EA /* Frameworks */,
+				E996410C3062E1AB0074B8EA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E9CFA32830068EF000ED3F16 /* PBXTargetDependency */,
+				E99641103062E1AB0074B8EA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E9CFA32930068EF000ED3F16 /* 100daysSwiftUIUITests */,
+				E99641113062E1AB0074B8EA /* WeSplitUITests */,
 			);
-			name = 100daysSwiftUIUITests;
-			packageProductDependencies = (
-			);
-			productName = 100daysSwiftUIUITests;
-			productReference = E9CFA32630068EF000ED3F16 /* 100daysSwiftUIUITests.xctest */;
+			name = WeSplitUITests;
+			productName = WeSplitUITests;
+			productReference = E996410E3062E1AB0074B8EA /* WeSplitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E9CFA30730068EED00ED3F16 /* Project object */ = {
+		E99640EF3062E1AA0074B8EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2660;
-				LastUpgradeCheck = 2660;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					E9CFA30E30068EED00ED3F16 = {
-						CreatedOnToolsVersion = 26.6;
+					E99640F63062E1AA0074B8EA = {
+						CreatedOnToolsVersion = 27.0;
 					};
-					E9CFA31B30068EF000ED3F16 = {
-						CreatedOnToolsVersion = 26.6;
-						TestTargetID = E9CFA30E30068EED00ED3F16;
+					E99641033062E1AB0074B8EA = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = E99640F63062E1AA0074B8EA;
 					};
-					E9CFA32530068EF000ED3F16 = {
-						CreatedOnToolsVersion = 26.6;
-						TestTargetID = E9CFA30E30068EED00ED3F16;
+					E996410D3062E1AB0074B8EA = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = E99640F63062E1AA0074B8EA;
 					};
 				};
 			};
-			buildConfigurationList = E9CFA30A30068EED00ED3F16 /* Build configuration list for PBXProject "100daysSwiftUI" */;
+			buildConfigurationList = E99640F23062E1AA0074B8EA /* Build configuration list for PBXProject "WeSplit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = E9CFA30630068EED00ED3F16;
+			mainGroup = E99640EE3062E1AA0074B8EA;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E9CFA31030068EED00ED3F16 /* Products */;
+			productRefGroup = E99640F83062E1AA0074B8EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9CFA30E30068EED00ED3F16 /* 100daysSwiftUI */,
-				E9CFA31B30068EF000ED3F16 /* 100daysSwiftUITests */,
-				E9CFA32530068EF000ED3F16 /* 100daysSwiftUIUITests */,
+				E99640F63062E1AA0074B8EA /* WeSplit */,
+				E99641033062E1AB0074B8EA /* WeSplitTests */,
+				E996410D3062E1AB0074B8EA /* WeSplitUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E9CFA30D30068EED00ED3F16 /* Resources */ = {
+		E99640F53062E1AA0074B8EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9CFA31A30068EF000ED3F16 /* Resources */ = {
+		E99641023062E1AB0074B8EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9CFA32430068EF000ED3F16 /* Resources */ = {
+		E996410C3062E1AB0074B8EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E9CFA30B30068EED00ED3F16 /* Sources */ = {
+		E99640F33062E1AA0074B8EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9CFA31830068EF000ED3F16 /* Sources */ = {
+		E99641003062E1AB0074B8EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9CFA32230068EF000ED3F16 /* Sources */ = {
+		E996410A3062E1AB0074B8EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E9CFA31E30068EF000ED3F16 /* PBXTargetDependency */ = {
+		E99641063062E1AB0074B8EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9CFA30E30068EED00ED3F16 /* 100daysSwiftUI */;
-			targetProxy = E9CFA31D30068EF000ED3F16 /* PBXContainerItemProxy */;
+			target = E99640F63062E1AA0074B8EA /* WeSplit */;
+			targetProxy = E99641053062E1AB0074B8EA /* PBXContainerItemProxy */;
 		};
-		E9CFA32830068EF000ED3F16 /* PBXTargetDependency */ = {
+		E99641103062E1AB0074B8EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9CFA30E30068EED00ED3F16 /* 100daysSwiftUI */;
-			targetProxy = E9CFA32730068EF000ED3F16 /* PBXContainerItemProxy */;
+			target = E99640F63062E1AA0074B8EA /* WeSplit */;
+			targetProxy = E996410F3062E1AB0074B8EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E9CFA32E30068EF000ED3F16 /* Debug */ = {
+		E99641143062E1AB0074B8EA /* Debug configuration for PBXProject "WeSplit" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -333,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		E9CFA32F30068EF000ED3F16 /* Release */ = {
+		E99641153062E1AB0074B8EA /* Release configuration for PBXProject "WeSplit" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -390,7 +364,7 @@
 			};
 			name = Release;
 		};
-		E9CFA33130068EF000ED3F16 /* Debug */ = {
+		E99641173062E1AB0074B8EA /* Debug configuration for PBXNativeTarget "WeSplit" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -410,7 +384,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.selfEmployee.-00daysSwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -422,7 +396,7 @@
 			};
 			name = Debug;
 		};
-		E9CFA33230068EF000ED3F16 /* Release */ = {
+		E99641183062E1AB0074B8EA /* Release configuration for PBXNativeTarget "WeSplit" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -442,7 +416,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.selfEmployee.-00daysSwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -454,7 +428,7 @@
 			};
 			name = Release;
 		};
-		E9CFA33430068EF000ED3F16 /* Debug */ = {
+		E996411A3062E1AB0074B8EA /* Debug configuration for PBXNativeTarget "WeSplitTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,9 +436,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6K6N6JA23S;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.selfEmployee.-00daysSwiftUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.WeSplitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -472,11 +446,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/100daysSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/100daysSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSplit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeSplit";
 			};
 			name = Debug;
 		};
-		E9CFA33530068EF000ED3F16 /* Release */ = {
+		E996411B3062E1AB0074B8EA /* Release configuration for PBXNativeTarget "WeSplitTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,9 +458,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6K6N6JA23S;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.selfEmployee.-00daysSwiftUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.WeSplitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -494,11 +468,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/100daysSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/100daysSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSplit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeSplit";
 			};
 			name = Release;
 		};
-		E9CFA33730068EF000ED3F16 /* Debug */ = {
+		E996411D3062E1AB0074B8EA /* Debug configuration for PBXNativeTarget "WeSplitUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -506,7 +480,7 @@
 				DEVELOPMENT_TEAM = 6K6N6JA23S;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.selfEmployee.-00daysSwiftUIUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.WeSplitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -514,11 +488,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = 100daysSwiftUI;
+				TEST_TARGET_NAME = WeSplit;
 			};
 			name = Debug;
 		};
-		E9CFA33830068EF000ED3F16 /* Release */ = {
+		E996411E3062E1AB0074B8EA /* Release configuration for PBXNativeTarget "WeSplitUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -526,7 +500,7 @@
 				DEVELOPMENT_TEAM = 6K6N6JA23S;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.selfEmployee.-00daysSwiftUIUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.WeSplitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -534,50 +508,47 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = 100daysSwiftUI;
+				TEST_TARGET_NAME = WeSplit;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9CFA30A30068EED00ED3F16 /* Build configuration list for PBXProject "100daysSwiftUI" */ = {
+		E99640F23062E1AA0074B8EA /* Build configuration list for PBXProject "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9CFA32E30068EF000ED3F16 /* Debug */,
-				E9CFA32F30068EF000ED3F16 /* Release */,
+				E99641143062E1AB0074B8EA /* Debug configuration for PBXProject "WeSplit" */,
+				E99641153062E1AB0074B8EA /* Release configuration for PBXProject "WeSplit" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9CFA33030068EF000ED3F16 /* Build configuration list for PBXNativeTarget "100daysSwiftUI" */ = {
+		E99641163062E1AB0074B8EA /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9CFA33130068EF000ED3F16 /* Debug */,
-				E9CFA33230068EF000ED3F16 /* Release */,
+				E99641173062E1AB0074B8EA /* Debug configuration for PBXNativeTarget "WeSplit" */,
+				E99641183062E1AB0074B8EA /* Release configuration for PBXNativeTarget "WeSplit" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9CFA33330068EF000ED3F16 /* Build configuration list for PBXNativeTarget "100daysSwiftUITests" */ = {
+		E99641193062E1AB0074B8EA /* Build configuration list for PBXNativeTarget "WeSplitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9CFA33430068EF000ED3F16 /* Debug */,
-				E9CFA33530068EF000ED3F16 /* Release */,
+				E996411A3062E1AB0074B8EA /* Debug configuration for PBXNativeTarget "WeSplitTests" */,
+				E996411B3062E1AB0074B8EA /* Release configuration for PBXNativeTarget "WeSplitTests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9CFA33630068EF000ED3F16 /* Build configuration list for PBXNativeTarget "100daysSwiftUIUITests" */ = {
+		E996411C3062E1AB0074B8EA /* Build configuration list for PBXNativeTarget "WeSplitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9CFA33730068EF000ED3F16 /* Debug */,
-				E9CFA33830068EF000ED3F16 /* Release */,
+				E996411D3062E1AB0074B8EA /* Debug configuration for PBXNativeTarget "WeSplitUITests" */,
+				E996411E3062E1AB0074B8EA /* Release configuration for PBXNativeTarget "WeSplitUITests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E9CFA30730068EED00ED3F16 /* Project object */;
+	rootObject = E99640EF3062E1AA0074B8EA /* Project object */;
+	validationLevel = 1;
 }

@@ -1,14 +1,14 @@
 //
-//  _00daysSwiftUITests.swift
-//  100daysSwiftUITests
+//  WeSplitTests.swift
+//  WeSplitTests
 //
-//  Created by 陳泓維 on 2026/7/14.
+//  Created by 陳泓維 on 2026/9/23.
 //
 
 import Testing
-@testable import _00daysSwiftUI
+@testable import WeSplit
 
-struct _00daysSwiftUITests {
+struct WeSplitTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

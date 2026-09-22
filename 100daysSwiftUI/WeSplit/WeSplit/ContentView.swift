@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  100daysSwiftUI
+//  WeSplit
 //
-//  Created by 陳泓維 on 2026/7/14.
+//  Created by 陳泓維 on 2026/9/23.
 //
 
 import SwiftUI

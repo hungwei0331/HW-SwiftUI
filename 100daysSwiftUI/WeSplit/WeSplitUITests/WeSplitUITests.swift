@@ -1,13 +1,13 @@
 //
-//  _00daysSwiftUIUITests.swift
-//  100daysSwiftUIUITests
+//  WeSplitUITests.swift
+//  WeSplitUITests
 //
-//  Created by 陳泓維 on 2026/7/14.
+//  Created by 陳泓維 on 2026/9/23.
 //
 
 import XCTest
 
-final class _00daysSwiftUIUITests: XCTestCase {
+final class WeSplitUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
