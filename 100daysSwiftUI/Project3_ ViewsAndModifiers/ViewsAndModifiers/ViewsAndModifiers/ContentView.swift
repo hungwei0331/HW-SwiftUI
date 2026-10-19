@@ -10,39 +10,27 @@ import SwiftUI
 struct ContentView: View {
     @State private var useRedText = false
     
-//    let motto1 = Text("Draco dormiens")
-    let motto2 = Text("nunquam titillandus")
-    
     var body: some View {
-        VStack {
-            motto1
-                .foregroundStyle(.red)
-            motto2
-                .foregroundStyle(.blue)
+        VStack(spacing: 10) {
+            CapsuleText(text: "First")
+                .foregroundStyle(.white)
+            CapsuleText(text: "Second")
+                .foregroundStyle(.yellow)
+            CapsuleText(text: "Third")
         }
     }
-    
-    var motto1: some View {
-        Text("Draco dormiens")
-    }
-    
-//    var spells: some View {
-//        VStack {
-//            Text("Lumos")
-//            Text("Obliviate")
-//        }
-//    }
-    
-//    var spells: some View {
-//        Group {
-//            Text("Lumos")
-//            Text("Obliviate")
-//        }
-//    }
-    
-    @ViewBuilder var spells: some View {
-        Text("Lumos")
-        Text("Obliviate")
+}
+
+struct CapsuleText: View {
+    var text: String
+
+    var body: some View {
+        Text(text)
+            .font(.largeTitle)
+            .padding()
+            .foregroundStyle(.white)
+            .background(.blue)
+            .clipShape(.capsule)
     }
 }
 
