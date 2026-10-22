@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E9A445F8308A73BE002E8A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9A445E2308A73BC002E8A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9A445E9308A73BC002E8A27;
+			remoteInfo = BetterRest;
+		};
+		E9A44602308A73BE002E8A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9A445E2308A73BC002E8A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9A445E9308A73BC002E8A27;
+			remoteInfo = BetterRest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9A445EA308A73BC002E8A27 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A445F7308A73BE002E8A27 /* BetterRestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A44601308A73BE002E8A27 /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E9A445EC308A73BC002E8A27 /* BetterRest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BetterRest;
+			sourceTree = "<group>";
+		};
+		E9A445FA308A73BE002E8A27 /* BetterRestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BetterRestTests;
+			sourceTree = "<group>";
+		};
+		E9A44604308A73BE002E8A27 /* BetterRestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BetterRestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9A445E7308A73BC002E8A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		E9A445F4308A73BE002E8A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		E9A445FE308A73BE002E8A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9A445E1308A73BC002E8A27 = {
+			isa = PBXGroup;
+			children = (
+				E9A445EC308A73BC002E8A27 /* BetterRest */,
+				E9A445FA308A73BE002E8A27 /* BetterRestTests */,
+				E9A44604308A73BE002E8A27 /* BetterRestUITests */,
+				E9A445EB308A73BC002E8A27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9A445EB308A73BC002E8A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9A445EA308A73BC002E8A27 /* BetterRest.app */,
+				E9A445F7308A73BE002E8A27 /* BetterRestTests.xctest */,
+				E9A44601308A73BE002E8A27 /* BetterRestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9A445E9308A73BC002E8A27 /* BetterRest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A44609308A73BE002E8A27 /* Build configuration list for PBXNativeTarget "BetterRest" */;
+			buildPhases = (
+				E9A445E6308A73BC002E8A27 /* Sources */,
+				E9A445E7308A73BC002E8A27 /* Frameworks */,
+				E9A445E8308A73BC002E8A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				E9A445EC308A73BC002E8A27 /* BetterRest */,
+			);
+			name = BetterRest;
+			productName = BetterRest;
+			productReference = E9A445EA308A73BC002E8A27 /* BetterRest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9A445F6308A73BE002E8A27 /* BetterRestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A4460C308A73BE002E8A27 /* Build configuration list for PBXNativeTarget "BetterRestTests" */;
+			buildPhases = (
+				E9A445F3308A73BE002E8A27 /* Sources */,
+				E9A445F4308A73BE002E8A27 /* Frameworks */,
+				E9A445F5308A73BE002E8A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9A445F9308A73BE002E8A27 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E9A445FA308A73BE002E8A27 /* BetterRestTests */,
+			);
+			name = BetterRestTests;
+			productName = BetterRestTests;
+			productReference = E9A445F7308A73BE002E8A27 /* BetterRestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9A44600308A73BE002E8A27 /* BetterRestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A4460F308A73BE002E8A27 /* Build configuration list for PBXNativeTarget "BetterRestUITests" */;
+			buildPhases = (
+				E9A445FD308A73BE002E8A27 /* Sources */,
+				E9A445FE308A73BE002E8A27 /* Frameworks */,
+				E9A445FF308A73BE002E8A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9A44603308A73BE002E8A27 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E9A44604308A73BE002E8A27 /* BetterRestUITests */,
+			);
+			name = BetterRestUITests;
+			productName = BetterRestUITests;
+			productReference = E9A44601308A73BE002E8A27 /* BetterRestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9A445E2308A73BC002E8A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					E9A445E9308A73BC002E8A27 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					E9A445F6308A73BE002E8A27 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = E9A445E9308A73BC002E8A27;
+					};
+					E9A44600308A73BE002E8A27 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = E9A445E9308A73BC002E8A27;
+					};
+				};
+			};
+			buildConfigurationList = E9A445E5308A73BC002E8A27 /* Build configuration list for PBXProject "BetterRest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9A445E1308A73BC002E8A27;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E9A445EB308A73BC002E8A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9A445E9308A73BC002E8A27 /* BetterRest */,
+				E9A445F6308A73BE002E8A27 /* BetterRestTests */,
+				E9A44600308A73BE002E8A27 /* BetterRestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9A445E8308A73BC002E8A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		E9A445F5308A73BE002E8A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		E9A445FF308A73BE002E8A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9A445E6308A73BC002E8A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		E9A445F3308A73BE002E8A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		E9A445FD308A73BE002E8A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9A445F9308A73BE002E8A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9A445E9308A73BC002E8A27 /* BetterRest */;
+			targetProxy = E9A445F8308A73BE002E8A27 /* PBXContainerItemProxy */;
+		};
+		E9A44603308A73BE002E8A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9A445E9308A73BC002E8A27 /* BetterRest */;
+			targetProxy = E9A44602308A73BE002E8A27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9A44607308A73BE002E8A27 /* Debug configuration for PBXProject "BetterRest" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6K6N6JA23S;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9A44608308A73BE002E8A27 /* Release configuration for PBXProject "BetterRest" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6K6N6JA23S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9A4460A308A73BE002E8A27 /* Debug configuration for PBXNativeTarget "BetterRest" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K6N6JA23S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.BetterRest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9A4460B308A73BE002E8A27 /* Release configuration for PBXNativeTarget "BetterRest" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K6N6JA23S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.BetterRest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9A4460D308A73BE002E8A27 /* Debug configuration for PBXNativeTarget "BetterRestTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K6N6JA23S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.BetterRestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterRest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterRest";
+			};
+			name = Debug;
+		};
+		E9A4460E308A73BE002E8A27 /* Release configuration for PBXNativeTarget "BetterRestTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K6N6JA23S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.BetterRestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterRest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterRest";
+			};
+			name = Release;
+		};
+		E9A44610308A73BE002E8A27 /* Debug configuration for PBXNativeTarget "BetterRestUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K6N6JA23S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.BetterRestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterRest;
+			};
+			name = Debug;
+		};
+		E9A44611308A73BE002E8A27 /* Release configuration for PBXNativeTarget "BetterRestUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K6N6JA23S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfEmployee.BetterRestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterRest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9A445E5308A73BC002E8A27 /* Build configuration list for PBXProject "BetterRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A44607308A73BE002E8A27 /* Debug configuration for PBXProject "BetterRest" */,
+				E9A44608308A73BE002E8A27 /* Release configuration for PBXProject "BetterRest" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		E9A44609308A73BE002E8A27 /* Build configuration list for PBXNativeTarget "BetterRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A4460A308A73BE002E8A27 /* Debug configuration for PBXNativeTarget "BetterRest" */,
+				E9A4460B308A73BE002E8A27 /* Release configuration for PBXNativeTarget "BetterRest" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		E9A4460C308A73BE002E8A27 /* Build configuration list for PBXNativeTarget "BetterRestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A4460D308A73BE002E8A27 /* Debug configuration for PBXNativeTarget "BetterRestTests" */,
+				E9A4460E308A73BE002E8A27 /* Release configuration for PBXNativeTarget "BetterRestTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		E9A4460F308A73BE002E8A27 /* Build configuration list for PBXNativeTarget "BetterRestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A44610308A73BE002E8A27 /* Debug configuration for PBXNativeTarget "BetterRestUITests" */,
+				E9A44611308A73BE002E8A27 /* Release configuration for PBXNativeTarget "BetterRestUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9A445E2308A73BC002E8A27 /* Project object */;
+	validationLevel = 1;
+}
